@@ -67,7 +67,7 @@ extension SVD2SwiftTests {
         let wdt = WDT(unsafeAddress: 0x3000)
 
         /// Device interrupts, by NVIC number.
-        enum Interrupt: UInt16 {
+        enum Interrupt: UInt {
           /// Watchdog timer
           case wdt = 0
 

@@ -302,7 +302,7 @@ extension SVDDevice: SVDExportable {
 
     let scope = """
       /// Device interrupts, by NVIC number.
-      \(options.accessLevel)enum Interrupt: UInt16
+      \(options.accessLevel)enum Interrupt: UInt
       """
 
     outputWriter.scope(scope) { outputWriter in
